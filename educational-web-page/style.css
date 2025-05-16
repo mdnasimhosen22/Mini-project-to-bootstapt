@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+.active {
+  font-family: "Comfortaa", sans-serif;
+  color: #fff !important;
+}
+.nav-link {
+  font-family: "Comfortaa", sans-serif;
+  color: #ffffffa6;
+}
+.bg-nav {
+  background-color: #636161;
+  border: 1px solid rgb(233, 225, 225);
+  border-radius: 30px;
+}
+.btn-width {
+  width: 200px;
+  height: 52px;
+  background-color: #3cff00d4;
+  border-radius: 22px;
+  font-size: 30px;
+  color: #fff;
+}
+
+/* hero section css start  */
+.hero-text {
+  text-align: center;
+}
+.Sectors-heading h1 {
+  width: 172px;
+  font-size: 33px;
+  background-color: #6a2f2f;
+  padding: 5px 0;
+  margin: 7px auto;
+}
+.hero-head p {
+  font-family: "Just Me Again Down Here", cursive;
+  font-size: 83px;
+  color: #89d7f8;
+}
+.sub-head p {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 100px;
+  color: #ffffff;
+  margin-top: -10px;
+}
+.img-margin {
+  margin-top: -18px;
+  margin-left: 99px;
+}
+.img-position {
+  position: relative;
+  top: -18px;
+  right: 126px;
+  z-index: -1;
+}
+/* Sectors section html start  */
+.Sectors-text {
+  margin-top: 58px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.imgage-container {
+  text-align: center;
+  border: 1px solid #6a2f2f;
+  border-radius: 10px;
+}
+.border-img-2 {
+  border: 1px solid #3a6a2f;
+}
+.border-img-3 {
+  border: 1px solid #2f636a;
+}
+.image {
+  margin: 10px;
+}
+.discrip {
+  padding: 10px 8rem;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 500;
+  line-height: 120%;
+}
+/* Achievements section html start  */
+.Achievements-text {
+  margin: 6rem 0 20px 0;
+  text-align: center;
+}
+.background {
+  width: 292px;
+  background-color: #4a51bb85;
+  margin: 8px auto;
+  padding: 6px;
+  border-radius: 10px;
+}
+.group-img {
+  height: 300px;
+}
+
+/* footer section css star  */
+.footer-bg {
+  background-color: #4e4e4e45;
+  padding: 100px 0;
+}
+.footer-txt {
+  color: #fff;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 110%;
+  margin-top: 20px;
+}
+.second-txt {
+  font-size: 24px;
+  font-weight: 300;
+  opacity: 50%;
+  margin: 10px 0;
+}
+.item a {
+  color: #fff;
+  opacity: 50%;
+}
+.item {
+  margin-bottom: 5px;
+}
+.titel {
+  font-size: 30px;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.icon-1 {
+  width: 50px;
+  height: 50px;
+  background-color: #b0b0b0;
+  border-radius: 10px;
+  color: #fff;
+}
+.icon {
+  color: #121212;
+  font-size: 38px;
+}
+.twi-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #636161;
+}
+.footer-icon-margin {
+  margin-left: 36px;
+}
+
+/* last footer responsive */
+.span {
+  letter-spacing: 10px;
+  font-weight: 300;
+}
+.copy-right-txt {
+  padding: 20px;
+}
+
+/* mobile responsive  */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .btn-width {
+    border-radius: 11px;
+    margin-bottom: 10px;
+  }
+  .navbar {
+    padding: 0 !important;
+  }
+  .bg-nav {
+    border-radius: 0%;
+  }
+  .hero-head p {
+    font-size: 52px;
+    line-height: 35px;
+    margin-top: 14px;
+  }
+  .sub-head p {
+    font-size: 45px;
+    margin-top: 34px;
+    line-height: 58px;
+  }
+
+  /* hero section responsive */
+  .hero-image-card {
+    margin-top: 25px;
+  }
+  .img-margin {
+    margin: 0;
+  }
+  .img-position {
+    right: 0;
+    top: 5px;
+    left: 5px;
+  }
+  /* sectors section responsive  */
+  .Sectors-text {
+    text-align: center;
+    margin: 22px 0;
+  }
+  .Sectors-heading h1 {
+    font-size: 33px;
+    background: #6a2f2f;
+    margin-bottom: 10px;
+    padding: 5px 0;
+  }
+  .Sectors-sub-heading h2 {
+    font-size: 21px;
+    line-height: 29px;
+  }
+
+  .imgage-container .image {
+    margin-top: 20px;
+  }
+  .background {
+    background-color: #4a51bb85 !important;
+  }
+  .discrip {
+    padding: 10px 1rem;
+  }
+  /* footer section responsive  */
+  .footer-bg {
+    padding: 20px 0 10px 0;
+  }
+  .footer-txt {
+    font-size: 18px;
+  }
+  .second-txt {
+    font-size: 16px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #636161;
+  }
+  .text-capitalize {
+    font-size: 23px;
+  }
+  .footer-icon-margin {
+    margin: 0;
+    align-items: center;
+  }
+}
+
+/* medium devise responsive  */
+@media (min-width: 576px) and (max-width: 768.98px) {
+  .navbar {
+    padding: 0 !important;
+    position: sticky;
+    top: 0;
+  }
+  .container{
+    max-width: 100%!important;
+    border-radius: 0;
+  }
+  .btn-width{
+    margin-bottom: 10px;
+  }
+  /* hero section  */
+  .sub-head p {
+    font-size: 50px;
+    margin: 0;
+  }
+  .img-margin {
+    margin-left: 0;
+  }
+  .img-position {
+    right: 0;
+    left: 40%;
+    top: 20px;
+  }
+  /* Sectors section responsive start  */
+  .imgage-container {
+    margin-bottom: 10px;
+  }
+
+  /* footer section responsive  */
+  .footer-txt {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .second-txt {
+    font-size: 14px;
+  }
+  .footer-icon-margin {
+    margin-left: 17rem;
+  }
+}
+
+/* largest devise resposive  */
+@media (min-width: 769px) and (max-width: 1025px) {
+
+  /* naver section  */
+  .navbar {
+    padding: 0 !important;
+    position: sticky;
+    top: 0;
+  }
+  .bg-nav {
+    border-radius: 0;
+  }
+  .container {
+    max-width: 100% !important;
+  }
+  .nav-link {
+    font-size: 20px !important;
+  }
+}
+
+/* google font
+
+ font-family: "Comfortaa", sans-serif;
+
+ font-family: "Just Me Again Down Here", cursive;
+ 
+ */
